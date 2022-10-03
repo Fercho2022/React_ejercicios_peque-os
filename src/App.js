@@ -1,15 +1,16 @@
-import React from "react";
-import Lista from "./components/Lista";
+import React from 'react';
+import Contador from './components/contador';
+import Jsx from './components/Jsx';
 
 
 function App() {
-  
-  return(
-
-    <div className="App">
-      <h1>Hola Lista</h1>
-      <Lista></Lista>
-      
+  return (
+    <div >
+      <h1>Hola mundo React</h1>
+      <Contador></Contador>
+      <Jsx></Jsx>
+        
+    
     </div>
   );
 }
