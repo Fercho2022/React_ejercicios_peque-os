@@ -1,18 +1,15 @@
 import React from 'react';
-import Contador from './components/contador';
-import Jsx from './components/Jsx';
-import Lista from './components/Lista';
-import Formulario from './components/Formulario';
+
+import Saludo from './components/Saludo';
 
 
 function App() {
   return (
     <div className='container mt-5'>
-      <h1>Hola mundo React</h1>
-      <Contador></Contador>
-      <Jsx></Jsx>
-      <Lista></Lista>
-      <Formulario></Formulario>
+      <h1>Component</h1>
+        <Saludo persona="Juanito"/>
+        <Saludo persona="Ignacio"/>
+        <Saludo persona="Catalina"/>
         
     
     </div>
